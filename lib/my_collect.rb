@@ -6,8 +6,7 @@ def my_collect(array)
      index += 1 
     end
     array
-  
-  end
 end
+
   
   
