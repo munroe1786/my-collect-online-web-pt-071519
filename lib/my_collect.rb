@@ -1,8 +1,8 @@
 def my_collect(array)
   new_array = [ ]
    index = 0
-    while index < array.length
-      new_array << array.upcase
+    while index < array.length do |language|
+      new_array << language.upcase
       yield array[index]
      index += 1 
     end
